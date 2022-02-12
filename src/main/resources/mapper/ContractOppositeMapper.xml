@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mapper.ContractOppositeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.demo.entity.ContractOpposite">
+        <id column="ID" property="id" />
+        <result column="OPPOSITE_CHARACTER" property="oppositeCharacter" />
+        <result column="CREDIR_CODE" property="credirCode" />
+        <result column="FULL_NAME" property="fullName" />
+        <result column="NAME_ABBREVIATION" property="nameAbbreviation" />
+        <result column="LEGAL_PERSON_ID" property="legalPersonId" />
+        <result column="LEGAL_PERSON_NAME" property="legalPersonName" />
+        <result column="LEGAL_PERSON_ACCOUNT" property="legalPersonAccount" />
+        <result column="LEGAL_PERSON_CARD_ID" property="legalPersonCardId" />
+        <result column="COUNTRY" property="country" />
+        <result column="CITY" property="city" />
+        <result column="ADDRESS" property="address" />
+        <result column="POSTCODE" property="postcode" />
+        <result column="PHONE" property="phone" />
+        <result column="FAX" property="fax" />
+        <result column="REGISTERED_CAPITAL" property="registeredCapital" />
+        <result column="WEBSITE" property="website" />
+        <result column="IS_SHARE" property="isShare" />
+        <result column="SHARE_SCOPE" property="shareScope" />
+        <result column="OPPOSITE_CODE" property="oppositeCode" />
+        <result column="OPPOSITE_STATUS" property="oppositeStatus" />
+        <result column="OPPOSITE_INTRODUTION" property="oppositeIntrodution" />
+        <result column="SOURCE" property="source" />
+        <result column="CERTIFICATE_TYPE" property="certificateType" />
+        <result column="CERTIFICATE_NUM" property="certificateNum" />
+        <result column="CREATOR_ID" property="creatorId" />
+        <result column="CREATOR_NAME" property="creatorName" />
+        <result column="CREATOR_ACCOUNT" property="creatorAccount" />
+        <result column="MODIFY_EMP_ID" property="modifyEmpId" />
+        <result column="MODIFY_EMP_ACCOUNT" property="modifyEmpAccount" />
+        <result column="MODIFY_EMP_NAME" property="modifyEmpName" />
+        <result column="CREATE_DEPT_ID" property="createDeptId" />
+        <result column="CREATE_DEPT_CODE" property="createDeptCode" />
+        <result column="CREATE_DEPT_NAME" property="createDeptName" />
+        <result column="MODIFY_DEPT_ID" property="modifyDeptId" />
+        <result column="MODIFY_DEPT_CODE" property="modifyDeptCode" />
+        <result column="MODIFY_DEPT_NAME" property="modifyDeptName" />
+        <result column="CREATION_TIME" property="creationTime" />
+        <result column="LAST_MODIFIED_TIME" property="lastModifiedTime" />
+        <result column="DELETED" property="deleted" />
+        <result column="EDIT_DESCRIPTION" property="editDescription" />
+        <result column="IS_END" property="isEnd" />
+        <result column="EX_OPPOSITE_ID" property="exOppositeId" />
+        <result column="IS_CURRENT" property="isCurrent" />
+        <result column="OPERATE_CODE" property="operateCode" />
+        <result column="TIN_CODE" property="tinCode" />
+        <result column="COMMENTS" property="comments" />
+        <result column="ABROAD_CODE" property="abroadCode" />
+        <result column="LEGAL_PERSON_CARD_NAME" property="legalPersonCardName" />
+        <result column="IS_ADMIN_CREATE" property="isAdminCreate" />
+        <result column="COUNTRY_NAME" property="countryName" />
+        <result column="IS_INTER_UNIT" property="isInterUnit" />
+        <result column="IS_RELATE_TRANSACTION" property="isRelateTransaction" />
+        <result column="INPUT_PERSON_ID" property="inputPersonId" />
+        <result column="INPUT_PERSON_NAME" property="inputPersonName" />
+        <result column="INPUT_PERSON_CODE" property="inputPersonCode" />
+        <result column="BUINESS_LICENSE_ID" property="buinessLicenseId" />
+        <result column="BUINESS_LICENSE_START_TIME" property="buinessLicenseStartTime" />
+        <result column="BUINESS_LICENSE_END_TIME" property="buinessLicenseEndTime" />
+        <result column="INPUT_PERSON_PHONE" property="inputPersonPhone" />
+        <result column="BAD_RECORD" property="badRecord" />
+        <result column="FULL_STATUS" property="fullStatus" />
+    </resultMap>
+
+</mapper>
